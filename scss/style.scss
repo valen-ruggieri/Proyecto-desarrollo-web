@@ -225,3 +225,109 @@ font-family: 'Gemunu Libre', sans-serif;}
     50% {transform: scale(0.93);}
     75% {transform: scale(0.99);}
     100% {transform: scale(1);box-shadow: 5px 9px 8px rgba(0, 0, 0, 0.555);}} 
+
+
+.bodybox{
+
+    .box{
+
+        h1{color:$colorTitleLoginPage;
+            font-size:60px;
+            text-transform:uppercase;
+            font-weight:500;
+            letter-spacing:7px;
+            text-shadow:1px 1px $colorLoginPage;}
+
+        input {font-size:20px;}
+        
+        .inputF {color:$colorLoginPage;
+            border:0;background:none;
+            display:block;
+            margin:20px auto;
+            text-align:center;
+            border:3px inset $colorLoginPage2;
+            padding:14px 10px;
+            width:200px;
+            outline:none;
+            border-radius:20px;
+            transition:0.25s;
+            font-family:$font-fam-login;
+            &:focus{color:$colorTextLoginPage;
+                width:280px;
+                border-color:$colorLoginPage;
+                background-color:$bg-black_50;}} 
+        
+
+        input[type = "submit"]{font-family:$font-fam-login;
+            border:0;
+            background:none;
+            display:block;
+            margin:20px auto;
+            text-align:center;
+            border:3px inset $colorLoginPage2;
+            padding:14px 40px;
+            outline:none;
+            color:$colorLoginPage2;
+            border-radius:24px;
+            transition:0.25s;
+            cursor:pointer;
+            &:hover{background:$colorLoginPage;
+                color:$colorTextLoginPage;
+                text-shadow:$shadowText}}
+
+                width:300px;
+                padding:40px;
+                position:absolute;
+                top:50%;
+                left:50%;
+                transform:translate(-50%,-50%);
+                background: darken($colorLoginPage, 50%);
+                text-align:center;
+                border-radius:20px;
+                z-index:1;           
+
+
+        }     
+                              
+
+    .iconoslogin {
+
+        img {border:10px solid rgba(211, 31, 31, 0);
+            width:40px;
+            height:40px;
+            padding:10px;
+            margin-left:400px;
+            border-bottom-left-radius:40px;}
+        .icono-html:hover{background-color: #ee552275; transition:0.2s}
+        .icono-css:hover {background-color: #0099ff77;transition:0.2s} 
+        .icono-javacs:hover{background-color: #ffee3369;transition:0.2s}  
+        .icono-reactjs:hover{background-color: #13045788;transition:0.2s} 
+
+
+    }
+    .volver {width:30px;
+        padding:0px;
+        padding-bottom:1px;
+        margin-top:-62px;
+        margin-left:780px;
+        background-color:#ffffff5e;
+        border-radius:20px;
+        z-index:2;
+        position:absolute;
+        border:2px inset #ffffff7e;
+        &:hover{background-color: rgba(111, 0, 255, 0.692);
+            transition:0.27s;}}
+
+
+    margin-top:140px;
+    padding:0;
+    font-family:$font-fam-login;
+    background-image: url(../src/multimedia/imagenes/fondos/fondo-principal.jpg);
+     
+
+    }               
+
+
+
+   
+
