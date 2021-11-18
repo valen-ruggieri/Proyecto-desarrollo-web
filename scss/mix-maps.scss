@@ -1,0 +1,39 @@
+@import "variables";
+
+
+
+@mixin  backs ($bg-image,$color-bck ) {
+    margin: 10px 10px 0px;
+    padding: 33px 0px;
+    background-size:cover;
+    border-radius: 10px;
+    background-image: ($bg-image);
+    color: $color-bck;
+}
+
+
+@mixin h2 ($color-h2 , $title-h2 ){
+
+    background-color: $color-h2;
+    color: $title-h2;
+    text-shadow: $shadowText;
+    
+}
+
+
+
+$butt: (
+
+    Cursos: $colorCursos,
+    html: $colorHtml ,
+    css:$colorCss,
+    javasc:$colorJavasc,
+    reactjs:$colorReactjs,
+    login: $colorLogin,
+   
+   
+
+);
+
+
+

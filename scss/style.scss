@@ -1,0 +1,227 @@
+
+@import "variables";
+@import "estilos";
+@import "mix-maps";
+
+* {
+body{
+    
+    p   {padding: 20px;
+        margin: 10px 0px;
+        text-shadow: $shadowText;}
+
+    h1 {border-radius: 10px;
+        text-align: center;
+        margin-top: -33px;}
+    
+    h2 {border-radius: 10px;
+        text-align: center;
+        margin-top: -33px;}
+
+    
+    a {text-decoration: none;}
+
+    text-align: justify;
+    font-size: $font-size-parraf;
+
+
+}
+
+
+#paginaprincipal {
+
+    .barraNav   {display: block;
+                background-color: $bg-black_75;
+                padding: 0px 5px 10.2px 1px ;
+                position: fixed;
+                width: 100%;}
+
+    .titulopag  {color:$colorTituloPag; font-size:$font-size-title;
+                display: block;
+                padding: 10px 0px;
+                margin: 0px 0px 10px 0px;
+                background-color: $bg-black_50;
+                border-radius: 0px ;}
+
+    .menuPrincipal{
+
+        a   {padding: 7px;
+            border-radius: 10px;
+            display: inline;
+            margin: 30px 20px 5px 20px;
+            transition: 1s;
+            outline: solid 2px $colorNone;
+
+            &:hover {font-size: $font-size-menu-a-hover;
+                    background-color: $bg-black_50;
+                    transition: 0,65s;}}
+
+        li  {list-style: none;
+            &:hover .submenuCursos {visibility: visible;
+                opacity: 1 ;
+                transition-property: all;
+                transition: 1s;}}
+
+        >li {display: inline-block;
+            position: relative;
+            margin: 0px 20px;}
+
+        
+            @each $but, $color1 in $butt {
+
+                .button-#{$but}{
+                    display: inline;
+                    color: $color1;
+                    &:hover{color: lighten($color1, 20%);}
+                    &:focus{outline: solid 2px lighten($color1, 20%); transition: 0.1s;}}
+                }
+                
+    
+        .submenuCursos {
+
+        ul:hover  {visibility: visible; 
+                    opacity: 1;}
+
+        li          {padding: 5px 0px;
+                    background-color: $colorNone;
+                    &:hover .submenuCursos  {visibility: visible;
+                                            opacity: 1 ;
+                                            transition-property: all;
+                                            transition: 1s;}}
+
+        a   {padding: 15px;
+            margin: 0;
+            background-color: $bg-black_75;
+            display: block;
+            text-size-adjust:initial;
+            color: $colorCursos;
+            &:hover {color:$colorCursosHover;
+                    font-size: $font-size-submenu-a;
+                    transition: 0,45s;
+                    background-color: $bg-black_75;}}
+
+        position: absolute;
+        text-align: start;
+        padding:8px 0px 0px 0px;
+        margin: 5px 0px 0px 0px;
+        visibility: hidden;
+        opacity: 0;
+        transition: 1s;
+        transition-property: all;
+        border-radius: 30px;
+
+    
+    
+        }
+    margin: 0px 0px 0px 190px;  
+   
+    }
+
+
+
+    .caja  {
+
+        article:hover   {animation: sectionPrinci 1s;} 
+
+        p       {opacity: 0;transition: 2s;}
+               
+        
+        img     {opacity: 0;transition: 2s; width: 240px; padding: 20px 100px 0px 110px;}
+               
+
+        padding: 120px 0px 0px 0px;
+        margin: 0px;
+        background-color: #a7151500; 
+
+
+        .back-html      {@include backs (url(../src/multimedia/imagenes/fondos/fondo-html.svg), $colorHtmlText)}
+
+        .back-css       {@include backs (url(../src/multimedia/imagenes/fondos/fondo-css.svg), $colorCssText)}
+
+        .back-javasc    {@include backs (url(../src/multimedia/imagenes/fondos/fondo-javascript.svg), $colorJavascText)}
+
+        .back-reactjs   {@include backs (url(../src/multimedia/imagenes/fondos/fondo-react.svg), $colorReactjsText)} 
+
+        .html-h2        {@include h2 ($colorHtml,$colorHtmlTitle)}
+
+        .css-h2         {@include h2 ($colorCss,$colorCssTitle)}
+
+        .javas-h2       {@include h2 ($colorJavasc,$colorJavascTitle)}
+
+        .reactjs-h2     {@include h2 ($colorReactjs,$colorReactjsTitle)}
+
+        .conocemas  {color:$colorConocemas;
+                    border-radius:20px;
+                    text-decoration:none;
+                    text-align:center; 
+                    text-shadow:$shadowText;
+                    &:hover {color:$colorConocemasHover}}  
+
+        &:hover p {opacity: 1;transition: 0.8s;}   
+        &:hover img {opacity: 1;transition: 1.8s;}   
+       
+        
+        }
+
+
+    .foterPrincipal {
+
+        ul  {display:inline-block;
+            padding: 0px 20px 0px 210px;
+            margin: 30px 0px 0px 0px;
+            visibility: visible;
+            opacity: 0;
+            transition: 2s;
+            transition-property: all;}
+
+        li  {list-style: none;
+            padding: 10px;
+            color: $color-footPrinc-li}
+
+        a   {color: $color-footPrinc-a;
+            &:hover{font-size:$font-size-footer-a-hover;
+                transition: 0.4s;}}
+
+    
+             
+        .listaH {text-decoration: line-through;font-style: italic;}    
+
+        .listaUno{
+                a:hover {@extend .listaH;
+                    color: $color-footPrinc-listaUno-a-hover;}}
+
+        .listaDos{
+            a:hover {@extend .listaH;
+                    color: $color-footPrinc-listaDos-a-hover;}}
+
+        .listaTres{
+            a:hover {@extend .listaH;
+                    color: $color-footPrinc-listaTres-a-hover;}}
+
+        background-color: $bg-black_50;
+        margin: 60px 0px;
+        padding: 30px 0px;
+        width: 100% ;
+        position: absolute;
+        &:hover ul {visibility: visible;
+            opacity: 1;
+            transition: 0.8s;
+            transition-property: all;}
+        
+
+    }
+
+    background-image: url(../src/multimedia/imagenes/fondos/fondo-principal.jpg);}
+   
+
+margin: 0;
+padding:0;
+font-family: 'Gemunu Libre', sans-serif;}
+
+    @keyframes sectionPrinci {
+
+    1% {transform: scale(0.99);box-shadow: 5px 9px 6px rgb(0, 0, 0);}
+    25% {transform: scale(0.96);}
+    50% {transform: scale(0.93);}
+    75% {transform: scale(0.99);}
+    100% {transform: scale(1);box-shadow: 5px 9px 8px rgba(0, 0, 0, 0.555);}} 

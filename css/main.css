@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gemunu Libre', sans-serif; }
+  * body {
+    text-align: justify;
+    font-size: 20px; }
+    * body p {
+      padding: 20px;
+      margin: 10px 0px;
+      text-shadow: 1px 1px #000000; }
+    * body h1 {
+      border-radius: 10px;
+      text-align: center;
+      margin-top: -33px; }
+    * body h2 {
+      border-radius: 10px;
+      text-align: center;
+      margin-top: -33px; }
+    * body a {
+      text-decoration: none; }
+  * #paginaprincipal {
+    background-image: url(../src/multimedia/imagenes/fondos/fondo-principal.jpg); }
+    * #paginaprincipal .barraNav {
+      display: block;
+      background-color: rgba(0, 0, 0, 0.748);
+      padding: 0px 5px 10.2px 1px;
+      position: fixed;
+      width: 100%; }
+    * #paginaprincipal .titulopag {
+      color: azure;
+      font-size: 50px;
+      display: block;
+      padding: 10px 0px;
+      margin: 0px 0px 10px 0px;
+      background-color: rgba(0, 0, 0, 0.501);
+      border-radius: 0px; }
+    * #paginaprincipal .menuPrincipal {
+      margin: 0px 0px 0px 190px; }
+      * #paginaprincipal .menuPrincipal a {
+        padding: 7px;
+        border-radius: 10px;
+        display: inline;
+        margin: 30px 20px 5px 20px;
+        transition: 1s;
+        outline: solid 2px #00000000; }
+        * #paginaprincipal .menuPrincipal a:hover {
+          font-size: 20.3px;
+          background-color: rgba(0, 0, 0, 0.501);
+          transition: 0,65s; }
+      * #paginaprincipal .menuPrincipal li {
+        list-style: none; }
+        * #paginaprincipal .menuPrincipal li:hover .submenuCursos {
+          visibility: visible;
+          opacity: 1;
+          transition-property: all;
+          transition: 1s; }
+      * #paginaprincipal .menuPrincipal > li {
+        display: inline-block;
+        position: relative;
+        margin: 0px 20px; }
+      * #paginaprincipal .menuPrincipal .button-Cursos {
+        display: inline;
+        color: #b38cff; }
+        * #paginaprincipal .menuPrincipal .button-Cursos:hover {
+          color: #f6f2ff; }
+        * #paginaprincipal .menuPrincipal .button-Cursos:focus {
+          outline: solid 2px #f6f2ff;
+          transition: 0.1s; }
+      * #paginaprincipal .menuPrincipal .button-html {
+        display: inline;
+        color: #e46e00; }
+        * #paginaprincipal .menuPrincipal .button-html:hover {
+          color: #ffa24b; }
+        * #paginaprincipal .menuPrincipal .button-html:focus {
+          outline: solid 2px #ffa24b;
+          transition: 0.1s; }
+      * #paginaprincipal .menuPrincipal .button-css {
+        display: inline;
+        color: #0067dd; }
+        * #paginaprincipal .menuPrincipal .button-css:hover {
+          color: #449bff; }
+        * #paginaprincipal .menuPrincipal .button-css:focus {
+          outline: solid 2px #449bff;
+          transition: 0.1s; }
+      * #paginaprincipal .menuPrincipal .button-javasc {
+        display: inline;
+        color: #e6c300; }
+        * #paginaprincipal .menuPrincipal .button-javasc:hover {
+          color: #ffe44d; }
+        * #paginaprincipal .menuPrincipal .button-javasc:focus {
+          outline: solid 2px #ffe44d;
+          transition: 0.1s; }
+      * #paginaprincipal .menuPrincipal .button-reactjs {
+        display: inline;
+        color: #00d4f0; }
+        * #paginaprincipal .menuPrincipal .button-reactjs:hover {
+          color: #57ebff; }
+        * #paginaprincipal .menuPrincipal .button-reactjs:focus {
+          outline: solid 2px #57ebff;
+          transition: 0.1s; }
+      * #paginaprincipal .menuPrincipal .button-login {
+        display: inline;
+        color: #acacac; }
+        * #paginaprincipal .menuPrincipal .button-login:hover {
+          color: #dfdfdf; }
+        * #paginaprincipal .menuPrincipal .button-login:focus {
+          outline: solid 2px #dfdfdf;
+          transition: 0.1s; }
+      * #paginaprincipal .menuPrincipal .submenuCursos {
+        position: absolute;
+        text-align: start;
+        padding: 8px 0px 0px 0px;
+        margin: 5px 0px 0px 0px;
+        visibility: hidden;
+        opacity: 0;
+        transition: 1s;
+        transition-property: all;
+        border-radius: 30px; }
+        * #paginaprincipal .menuPrincipal .submenuCursos ul:hover {
+          visibility: visible;
+          opacity: 1; }
+        * #paginaprincipal .menuPrincipal .submenuCursos li {
+          padding: 5px 0px;
+          background-color: #00000000; }
+          * #paginaprincipal .menuPrincipal .submenuCursos li:hover .submenuCursos {
+            visibility: visible;
+            opacity: 1;
+            transition-property: all;
+            transition: 1s; }
+        * #paginaprincipal .menuPrincipal .submenuCursos a {
+          padding: 15px;
+          margin: 0;
+          background-color: rgba(0, 0, 0, 0.748);
+          display: block;
+          text-size-adjust: initial;
+          color: #b38cff; }
+          * #paginaprincipal .menuPrincipal .submenuCursos a:hover {
+            color: #46ffa3;
+            font-size: 21px;
+            transition: 0,45s;
+            background-color: rgba(0, 0, 0, 0.748); }
+    * #paginaprincipal .caja {
+      padding: 120px 0px 0px 0px;
+      margin: 0px;
+      background-color: #a7151500; }
+      * #paginaprincipal .caja article:hover {
+        animation: sectionPrinci 1s; }
+      * #paginaprincipal .caja p {
+        opacity: 0;
+        transition: 2s; }
+      * #paginaprincipal .caja img {
+        opacity: 0;
+        transition: 2s;
+        width: 240px;
+        padding: 20px 100px 0px 110px; }
+      * #paginaprincipal .caja .back-html {
+        margin: 10px 10px 0px;
+        padding: 33px 0px;
+        background-size: cover;
+        border-radius: 10px;
+        background-image: url(../src/multimedia/imagenes/fondos/fondo-html.svg);
+        color: #f79b66; }
+      * #paginaprincipal .caja .back-css {
+        margin: 10px 10px 0px;
+        padding: 33px 0px;
+        background-size: cover;
+        border-radius: 10px;
+        background-image: url(../src/multimedia/imagenes/fondos/fondo-css.svg);
+        color: #004ad3; }
+      * #paginaprincipal .caja .back-javasc {
+        margin: 10px 10px 0px;
+        padding: 33px 0px;
+        background-size: cover;
+        border-radius: 10px;
+        background-image: url(../src/multimedia/imagenes/fondos/fondo-javascript.svg);
+        color: black; }
+      * #paginaprincipal .caja .back-reactjs {
+        margin: 10px 10px 0px;
+        padding: 33px 0px;
+        background-size: cover;
+        border-radius: 10px;
+        background-image: url(../src/multimedia/imagenes/fondos/fondo-react.svg);
+        color: #00aeff; }
+      * #paginaprincipal .caja .html-h2 {
+        background-color: #e46e00;
+        color: white;
+        text-shadow: 1px 1px #000000; }
+      * #paginaprincipal .caja .css-h2 {
+        background-color: #0067dd;
+        color: #6fcaff;
+        text-shadow: 1px 1px #000000; }
+      * #paginaprincipal .caja .javas-h2 {
+        background-color: #e6c300;
+        color: rgba(15, 7, 14, 0.562);
+        text-shadow: 1px 1px #000000; }
+      * #paginaprincipal .caja .reactjs-h2 {
+        background-color: #00d4f0;
+        color: #0c0041;
+        text-shadow: 1px 1px #000000; }
+      * #paginaprincipal .caja .conocemas {
+        color: #c300ff;
+        border-radius: 20px;
+        text-decoration: none;
+        text-align: center;
+        text-shadow: 1px 1px #000000; }
+        * #paginaprincipal .caja .conocemas:hover {
+          color: #00ff73; }
+      * #paginaprincipal .caja:hover p {
+        opacity: 1;
+        transition: 0.8s; }
+      * #paginaprincipal .caja:hover img {
+        opacity: 1;
+        transition: 1.8s; }
+    * #paginaprincipal .foterPrincipal {
+      background-color: rgba(0, 0, 0, 0.501);
+      margin: 60px 0px;
+      padding: 30px 0px;
+      width: 100%;
+      position: absolute; }
+      * #paginaprincipal .foterPrincipal ul {
+        display: inline-block;
+        padding: 0px 20px 0px 210px;
+        margin: 30px 0px 0px 0px;
+        visibility: visible;
+        opacity: 0;
+        transition: 2s;
+        transition-property: all; }
+      * #paginaprincipal .foterPrincipal li {
+        list-style: none;
+        padding: 10px;
+        color: rgba(0, 0, 0, 0); }
+      * #paginaprincipal .foterPrincipal a {
+        color: white; }
+        * #paginaprincipal .foterPrincipal a:hover {
+          font-size: 20.1px;
+          transition: 0.4s; }
+      * #paginaprincipal .foterPrincipal .listaH, * #paginaprincipal .foterPrincipal .listaUno a:hover, * #paginaprincipal .foterPrincipal .listaDos a:hover, * #paginaprincipal .foterPrincipal .listaTres a:hover {
+        text-decoration: line-through;
+        font-style: italic; }
+      * #paginaprincipal .foterPrincipal .listaUno a:hover {
+        color: #ff4089; }
+      * #paginaprincipal .foterPrincipal .listaDos a:hover {
+        color: rgba(148, 66, 255, 0.753); }
+      * #paginaprincipal .foterPrincipal .listaTres a:hover {
+        color: springgreen; }
+      * #paginaprincipal .foterPrincipal:hover ul {
+        visibility: visible;
+        opacity: 1;
+        transition: 0.8s;
+        transition-property: all; }
+
+@keyframes sectionPrinci {
+  1% {
+    transform: scale(0.99);
+    box-shadow: 5px 9px 6px black; }
+  25% {
+    transform: scale(0.96); }
+  50% {
+    transform: scale(0.93); }
+  75% {
+    transform: scale(0.99); }
+  100% {
+    transform: scale(1);
+    box-shadow: 5px 9px 8px rgba(0, 0, 0, 0.555); } }
