@@ -412,9 +412,14 @@ font-family: 'Gemunu Libre', sans-serif; }
                       
 
       /* media query para ordenadores */
-     @media screen and (min-width: 1278px) {
+      @media screen and (min-width: 1421px) {
+
+        .grid-container {display: none;}
+
+      } 
+     @media screen and (min-width: 1329px) and (max-width: 1420px) {
            
-     }       /* contenedor grid */
+           /* contenedor grid */
             .grid-container {display: grid;
                         background-size: cover; 
                         grid-template-columns: repeat(4,1fr);
@@ -426,6 +431,7 @@ font-family: 'Gemunu Libre', sans-serif; }
                         "footer footer footer aside";
                         padding: 20px;
                         font-size: 23px;}
+                     
 
             /* header de la pagina */      
             .grid-item:first-child {grid-area: header;
@@ -434,26 +440,26 @@ font-family: 'Gemunu Libre', sans-serif; }
                   .grid-item:first-child h1 {margin-top: 3px; }                        
             
             /* seccion de la pagina */
-            .grid-item:nth-child(2) {grid-area: section;;border-radius: 20px;}
+            .grid-item:nth-child(2) {grid-area: section;;border-radius: 20px;margin: 0px 0px 0px 120px;width: 1000px;}
             
             /* barra lateral o aside de la pagina */
-            .grid-item:nth-child(3){ grid-area: aside; width: 100px; height: 200px;border-radius: 20px; margin: 70px 20px;}
+            .grid-item:nth-child(3){ grid-area: aside; width: 80px; height: 150px;border-radius: 20px; margin: 70px 0px 0px 0px;background-color: rgba(0, 0, 0, 0.534);}
             
                   /* botones volver e ingresar */
-                  .volverpags       {width: 50px;margin: 0;padding: 0;border-radius: 30px; background-color: #0000004b;}
+                  .volverpags       {width: 50px;margin: 13px;padding: 0;border-radius: 30px; background-color: #afafaf4b;}
             
-                  .login-pags       {width: 50px; margin: 0;padding: 0;border-radius: 30px; background-color: #0000004b;} 
+                  .login-pags       {width: 50px; margin: 13px;padding: 0;border-radius: 30px; background-color: #afafaf4b;} 
             
             /* footer de la pagina */
-            .grid-item:nth-child(4) { grid-area: footer; background-color: rgba(0, 0, 0, 0.623);border-radius: 20px}
+            .grid-item:nth-child(4) { grid-area: footer; background-color: rgba(0, 0, 0, 0.884);border-radius: 20px;height: 200px; margin: 50px 60px 0px 150px;width: 900px;}
                   
                   .grid-item:nth-child(4) h4 {font-size: 40px;text-align: center;color: rgb(141, 141, 141); background-color: rgb(23, 32, 32); border-radius: 20px;margin:5px}
-                  .grid-item:nth-child(4) li {list-style: none;margin: 50px 0px 0px 20px ;}
+                  .grid-item:nth-child(4) li {list-style: none;margin: 30px 0px 0px 20px ;}
                   .grid-item:nth-child(4) a {text-decoration: none;color: aliceblue;background: rgba(0, 0, 0, 0.582); border-radius: 20px; padding: 10px 250px 10px 15px;}
-                  .grid-item:nth-child(4) a:hover { color: blueviolet; }
+                  .grid-item:nth-child(4) a:hover { color: blueviolet; }}
 
       /* media query sin display */      
-      @media screen and (min-width: 768px) and (max-width: 900px) {
+      @media screen and (min-width: 768px) and (max-width: 1328px) {
 
             .grid-container {display: none;}
       }
@@ -556,23 +562,32 @@ font-family: 'Gemunu Libre', sans-serif; }
 
             .grid-container p {transition: 2s;}  
 
-            .bodyHtml {background-image: url(../src/multimedia/imagenes/fondos//fondo-html.svg);color: rgb(255, 82, 2)
-                  ;text-shadow: 1px 1px #000000;}
+            .bodyHtml {background-image: url(../src/multimedia/imagenes/fondos//fondo-html.svg);
+                      background-size: 100%;
+                      color: rgb(255, 82, 2);
+                      text-shadow: 1px 1px #000000;}
 
-            .bodyHtml h1  {background-color: rgba(255, 115, 0, 0.596); color: rgb(255, 255, 255);}  
+            .bodyHtml h1  {background-color: rgba(255, 115, 0, 0.596); 
+                          color: rgb(255, 255, 255);}  
 
-            .bodyCss {background-image: url(../src/multimedia/imagenes/fondos/fondo-css.svg);color: rgb(111, 202, 255);
-                  text-shadow: 1px 1px #000000;}
+            .bodyCss  {background-image: url(../src/multimedia/imagenes/fondos/fondo-css.svg);
+                      background-size: 200%;
+                      color: rgb(111, 202, 255);
+                      text-shadow: 1px 1px #000000;}
 
             .bodyCss h1  {background-color: rgba(0, 47, 255, 0.575);}
 
-            .bodyJavasc {background-image: url(../src/multimedia/imagenes/fondos/fondo-javascript.svg); color: rgba(15, 7, 14, 0.562);
-                  text-shadow: 1px 1px #000000;}
+            .bodyJavasc {background-image: url(../src/multimedia/imagenes/fondos/fondo-javascript.svg);
+                        background-size: 250%;
+                        color: rgba(15, 7, 14, 0.562);
+                        text-shadow: 1px 1px #000000;}
 
             .bodyJavasc h1   {background-color: rgba(255, 238, 0, 0.5);}   
 
-            .bodyReactjs {background-image: url(../src/multimedia/imagenes/fondos/fondo-react.svg);color: rgb(12, 0, 65);
-                  text-shadow: 1px 1px #000000;}      
+            .bodyReactjs {background-image: url(../src/multimedia/imagenes/fondos/fondo-react.svg);
+                          background-size: 10%;
+                          color: rgb(12, 0, 65);
+                          text-shadow: 1px 1px #000000;}      
 
             .bodyReactjs h1 {background-color: rgba(0, 253, 253, 0.486);}
 

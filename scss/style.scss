@@ -140,7 +140,8 @@ body{
 
         .back-javasc    {@include backs (url(../src/multimedia/imagenes/fondos/fondo-javascript.svg), $colorJavascText)}
 
-        .back-reactjs   {@include backs (url(../src/multimedia/imagenes/fondos/fondo-react.svg), $colorReactjsText)} 
+        .back-reactjs   {@include backs (url(../src/multimedia/imagenes/fondos/fondo-react.svg), $colorReactjsText);
+                        background-size: 10%;} 
 
         .html-h2        {@include h2 ($colorHtml,$colorHtmlTitle)}
 

@@ -181,7 +181,8 @@
         background-size: cover;
         border-radius: 10px;
         background-image: url(../src/multimedia/imagenes/fondos/fondo-react.svg);
-        color: #00aeff; }
+        color: #00aeff;
+        background-size: 10%; }
       * #paginaprincipal .caja .html-h2 {
         background-color: #e46e00;
         color: white;
