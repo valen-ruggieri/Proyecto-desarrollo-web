@@ -659,10 +659,11 @@ font-family: 'Gemunu Libre', sans-serif; }
                       flex-flow: row wrap;
                       height: 3250px;}
                       
-      .main-Curso section     {height: 400px;
+      .main-Curso section     {height: 300px;
                               width: 1400px;
-                              margin: 20px;}  
-                                              
+                              margin: 20px;} 
+
+     
 
       .artViolet                                      {background-color:rgba(0, 0, 0, 0.473);
                                                       color:rgb(179, 140, 255);}
@@ -736,13 +737,18 @@ font-family: 'Gemunu Libre', sans-serif; }
       .menuInfo       {list-style: none ;
                       display: flex;
                       flex-flow: row wrap;
-                      justify-content: space-around;}                 
+                      justify-content: space-around;} 
+                        
+      .contInfo  {width: 1200px;}                            
       
       
 
       .menuInfo a:focus {padding:5px; outline: solid 3px rgb(70, 255, 163);transition: 0.1s; border-radius: 10px;}
       
       .menuInfo a:hover       {animation: infoA 1.5s; color:rgb(70, 255, 163);}
+
+      .colorTextViolet {color:rgb(179, 140, 255);}
+      .colorTextGreen {color:rgb(70, 255, 163);}
       
       .navInfo h1             {font-size: 45px;
                               padding: 20px 0px;

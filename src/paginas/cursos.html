@@ -12,9 +12,11 @@
   
     <link rel="stylesheet" href="/css/style.css">
     <link rel="shortcut icon" href="../multimedia/iconos/icon-curso.png">
+
+    <!-- meta descriptions -->
     <meta name="description" content="Bienvenidos a la pagina de nuestros cursos donde tendras toda la informacion acerca de los cursos que brindamos en nuestra academia y los profesores que los dictan">
     <meta name="keywords" content="desarrollo web, programar desde cero, cursos programacion, cursos diseño ux/ui, cursos marketing, cursos desarrollo web, cursos de data analytics, cursos de diseño grafico, cursos web, ">
-    
+    <!--  protocolo open graph -->
     <meta property="og:title" content="Pagina de Cursos">
     <meta property="og:type" content="website">
     <meta property="og:url" content="/src/paginas/cursos.html">
@@ -53,19 +55,20 @@
 
     </header>
 
-    <main class="main-Curso">
+
+
+
+    <!-- grid system de bootstrap -->
         
-        <!-- grid system de bootstrap -->
-        
-        <!-- contenedor de columnas y filas  -->
-        <section class="container d-flex justify-content-center align-items-center mt-5 w-75 bootcont">
+    <!-- contenedor de columnas y filas  -->
+    <section class="container-fluid d-flex justify-content-center mt-1 w-75 bootcont">
 
             <!-- seccion de profesores y barra de enlaces -->
-            <article class="row ">
+            <section class="row ">
 
                 <!-- titulo y parrafo de inicio -->
-                <div class="col-12 mb-2 text-center violetbt ">PROFESORES</div>
-                <div class="col-12 p-5 mb-3 greenbt ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ratione nisi vel. Quam vitae unde molestias? Aspernatur distinctio repellendus excepturi illum quaerat odio temporibus, labore quisquam dicta, iure ipsum maiores?</div>
+                <div class="col-12 mb-5 text-center violetbt p-3 fs-2 ">PROFESORES</div>
+                <div class="col-12 p-5 mb-3 greenbt ">En nuestros cursos online en vivo tendrás interacción real e instantánea con tu profesor, tutor y compañeros, para resolver todas tus dudas y avanzar en tus proyectos prácticos.</div>
 
                 <!-- seccion de profesores -->
                 <div class="col-12 col-lg-9  ">
@@ -228,9 +231,16 @@
                        
                 </div>
             
-            </article>
+            </section>
 
-        </section>
+    </section>
+
+
+    <main class="main-Curso">
+        
+        
+
+        
 
         <!-- secciones de pagina -->
         <section class="caja-uxui" id="id-uxui">
@@ -241,7 +251,7 @@
                 <!-- titulo de articulo -->
                 <h2> Diseño UX/UI </h2>
                 <!-- parrafo sobre el tema -->
-                <p class="p2"><b class="b2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</b>  Eveniet quaerat dolorum sunt earum corrupti facere magni consequatur, tenetur est vitae esse maiores ratione voluptatum facilis asperiores ullam? Architecto, ipsum fugiat.</p>
+                <p class="p2"><b class="b2">En este curso aprenderás a hacer un research, e investigar acerca de un problema que convertirás o en una idea de app o web.</b> Diseñarás y crearás un prototipo de app o sitio web mobile first (en base a esta tendencia, se crea primero una versión optimizada para dispositivos móviles, y luego se amplía a web o desktop). Comenzarás a plasmar tu idea definiendo las funcionalidades principales de la misma (MVP). Pasarás también por la definición de un público objetivo o usuario, para el desarrollo del prototipo. Utilizarás herramientas de prototipo actuales y solicitadas en el mundo laboral. Asimismo, validarás tu proyecto mediante diferentes metodologías y actividades.</p>
 
             </article>
 
@@ -256,7 +266,7 @@
                 <!-- titulo de articulo -->
                 <h2> Desarrollo Web </h2>
                 <!-- parrafo sobre el tema -->
-                <p class="p1"><b class="b1">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</b>  Saepe soluta sequi illum ea amet similique eligendi vero at, autem enim. Error hic atque dicta cum harum. Quidem a vitae vel!</p>
+                <p class="p1"><b class="b1"> En este curso aprenderás a crear tu sitio web partiendo del prototipo en papel. Te sumergirás en las mejores prácticas del desarrollo web, trabajando con HTML y CSS.</b> Conocerás herramientas para optimizar al máximo tu sitio web, implementando prácticas de versionado de código con GIT, y preprocesadores como SASS. Al finalizar, sabrás cómo aplicar Bootstrap a tus proyectos, y comprenderás lo importante del SEO en tus desarrollos. Subirás tu sitio a un servidor, y aprenderás a interactuar con este servicio. También sabrás cómo presentar un presupuesto y atender a tu cliente final.</p>
 
             </article>
 
@@ -272,7 +282,7 @@
                 <h2> Data Analytics </h2>
                 <!-- parrafo sobre el tema -->
                 <p class="p2"> 
-                    <b class="b2"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</b> Error est consectetur obcaecati nesciunt? Nihil dicta, ad reiciendis dolor ut minima deleniti et. Placeat expedita exercitationem rem animi unde laudantium veniam!
+                    <b class="b2">En este curso aprenderás los conceptos generales de las bases de datos para luego trabajar sobre bases de datos relacionales. Implementarás como analista técnico y como usuario bases de datos relacionales por medio del lenguaje de consultas estructuradas (SQL).</b> Diseñarás y desarrollarás tableros de control con la herramienta Power BI, utilizando DAX (Data Analysis Expressions), Lenguaje M y Power Query. Al terminar el curso podrás desarrollar proyectos de data analytics como un analista integral, desde el relevamiento inicial hasta la creación de un tablero.
                 </p>
 
             </article>
@@ -289,7 +299,7 @@
                 <h2> Back-End </h2>
                 <!-- parrafo sobre el tema -->
                 <p class="p1"> 
-                    <b class="b1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</b> Corporis, impedit officiis, provident placeat pariatur non vel dolore eveniet amet ab nisi ipsam minima harum ex magnam aliquid quo quaerat vitae.
+                    <b class="b1">En este curso aprenderás a desarrollar aplicaciones modernas con Node.js y MongoDB. Programarás en Javascript del lado del servidor aplicando técnicas asincrónicas.Aprenderás a trabajar con Bases de datos SQL y NoSQL dominando la gestión de los datos en forma eficiente, ágil y con una gran facilidad de escalabilidad.</b>  Al finalizar el curso serás capaz de diseñar complejas aplicaciones backend robustas, rápidas y escalables, dominando diferentes técnicas de comunicación, manejo de procesos distribuidos, control de grandes volúmenes de datos y despliegue a distintas plataformas web
                 </p>
 
             </article>
@@ -306,7 +316,7 @@
                 <h2> Marketing Digital </h2>
                 <!-- parrafo sobre el tema -->
                 <p class="p2">
-                    <b class="b2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</b> Consequuntur optio illum, perspiciatis animi aliquid odit architecto nihil iure minima distinctio, accusantium inventore! Sunt commodi illum adipisci fugiat quam rem nihil.
+                    <b class="b2">En esta carrera aprenderás a aplicar las mejores estrategias de marketing digital para hacer crecer tu negocio. En el primer nivel (Community Manager & Publicidad) aprenderás a crear y optimizar tu estrategia de redes sociales. En el segundo nivel (Publicidad en Redes Avanzado) aprenderás a crear campañas de publicidad pagas en las principales redes sociales y motores de búsqueda.</b> Además podrás medir los resultados y optimizarlas constantemente. En el tercer nivel (Growth Marketing) aprederás a crear embudos de conversión y aplicar estrategias de mejora continua con las herramientas más utilizadas del mercado
                 </p>
 
             </article>
@@ -323,7 +333,7 @@
                 <h2> Diseño Grafico </h2>
                 <p class="p1"> 
                     <!-- parrafo sobre el tema -->
-                    <b class="b1">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</b> Ad neque accusamus, dolore facilis eos aliquam vero blanditiis, ut animi vitae inventore, corporis accusantium doloremque provident consequatur quos rem iure perspiciatis?
+                    <b class="b1">En este curso conocerás los conceptos básicos del diseño: nociones centrales sobre el color, la forma, las leyes de percepción de la Gestalt y el uso de tipografía.</b> Al finalizarlo, tendrás las herramientas para abordar el diseño de cualquier propuesta gráfica.
                 </p>
 
             </article>
