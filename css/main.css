@@ -360,3 +360,335 @@
     .bodybox .volver:hover {
       background-color: rgba(111, 0, 255, 0.692);
       transition: 0.27s; }
+
+.paginaInfo-Curso {
+  margin-bottom: 400px;
+  background-image: url(../src/multimedia/imagenes/fondos/fondo-principal.jpg); }
+  .paginaInfo-Curso header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.678);
+    padding: 50px; }
+  .paginaInfo-Curso section {
+    align-self: center;
+    border-radius: 10px;
+    margin-top: 110px; }
+  .paginaInfo-Curso article {
+    margin: 160px 0px 10px 0px;
+    padding: 50px 10px 30px 10px;
+    border-radius: 20px;
+    transition: all 4s; }
+  .paginaInfo-Curso nav {
+    text-align: center;
+    padding: 10px 0px;
+    margin: -50px 0px;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.678); }
+  .paginaInfo-Curso h2 {
+    font-size: 35px;
+    padding: 20px 0px 20px 10px;
+    background-color: rgba(0, 0, 0, 0.541);
+    text-align: center;
+    border-radius: 20px; }
+  .paginaInfo-Curso p {
+    font-size: 25px;
+    margin: 10px 20px 0px 20px;
+    padding: 50px 10px 40px 10px;
+    border-radius: 20px;
+    transition: 1s; }
+  .paginaInfo-Curso a {
+    text-decoration: none;
+    color: lightgray; }
+  .paginaInfo-Curso .b1, .paginaInfo-Curso .b2, .paginaInfo-Curso .b3, .paginaInfo-Curso .b4 {
+    font-weight: normal;
+    transition: 1.5s; }
+  .paginaInfo-Curso .bg-ligth {
+    background-color: rgba(0, 0, 0, 0.397);
+    border-radius: 20px; }
+  .paginaInfo-Curso .violetbt {
+    background-color: rgba(1, 2, 2, 0.658);
+    color: #b38cff;
+    border-radius: 20px; }
+    .paginaInfo-Curso .violetbt p {
+      opacity: 0; }
+      .paginaInfo-Curso .violetbt p:hover {
+        opacity: 1;
+        color: #46ffa3; }
+    .paginaInfo-Curso .violetbt a {
+      background-color: #b38cff;
+      color: white;
+      border: 1px solid rgba(61, 0, 184, 0.583);
+      text-shadow: 1px 2px black; }
+      .paginaInfo-Curso .violetbt a:hover {
+        background-color: #46ffa3;
+        color: white;
+        border: 1px solid rgba(0, 143, 72, 0.638);
+        text-shadow: 1px 2px black; }
+    .paginaInfo-Curso .violetbt:hover {
+      animation: artGreen-Violet 2s; }
+  .paginaInfo-Curso .animdan {
+    transform: translateX(80px) translateY(70px);
+    transition: 2s; }
+    .paginaInfo-Curso .animdan:hover {
+      transform: translateX(0px) translateY(0px); }
+  .paginaInfo-Curso .animkira {
+    transform: translateX(2px) translateY(70px);
+    transition: 2s; }
+    .paginaInfo-Curso .animkira:hover {
+      transform: translateX(0px) translateY(0px); }
+  .paginaInfo-Curso .animjean {
+    transform: translateX(2px) translateY(80px);
+    transition: 2s; }
+    .paginaInfo-Curso .animjean:hover {
+      transform: translateX(0px) translateY(0px); }
+  .paginaInfo-Curso .animjon {
+    transform: translateX(80px) translateY(90px);
+    transition: 2s; }
+    .paginaInfo-Curso .animjon:hover {
+      transform: translateX(0px) translateY(0px); }
+  .paginaInfo-Curso .animImg {
+    transform: translateX(60px) translateY(80px);
+    transition: 2s; }
+    .paginaInfo-Curso .animImg img {
+      transform: scale(2) translateX(-20px);
+      transition: 2s; }
+      .paginaInfo-Curso .animImg img:hover {
+        transform: scale(1);
+        transition: 2s; }
+    .paginaInfo-Curso .animImg h5 {
+      opacity: 0;
+      margin-top: 20px;
+      margin-left: 20px; }
+      .paginaInfo-Curso .animImg h5:hover h5 {
+        opacity: 1; }
+    .paginaInfo-Curso .animImg a {
+      opacity: 0;
+      transition: 0.5s;
+      margin-left: 20px; }
+      .paginaInfo-Curso .animImg a:hover {
+        opacity: 1;
+        transition: 3s; }
+    .paginaInfo-Curso .animImg p {
+      margin: 0;
+      padding: 20px;
+      transition: 3s; }
+    .paginaInfo-Curso .animImg:hover {
+      transform: translateX(0px) translateY(0px); }
+  .paginaInfo-Curso .iconanim img {
+    transform: rotate(360deg);
+    transition: 2s; }
+    .paginaInfo-Curso .iconanim img:hover {
+      transform: rotate(360deg);
+      transition: 2s; }
+  .paginaInfo-Curso .iconanim h3 {
+    transform: scale(1.2);
+    transition: 2s; }
+    .paginaInfo-Curso .iconanim h3:hover {
+      transform: scale(1.2);
+      transition: 2s; }
+  .paginaInfo-Curso .greenbt p {
+    opacity: 0; }
+  .paginaInfo-Curso .greenbt a {
+    background-color: #46ffa3;
+    color: white;
+    border: 1px solid rgba(0, 143, 72, 0.638);
+    text-shadow: 1px 2px black;
+    background-color: rgba(0, 0, 0, 0.658);
+    color: #46ffa3;
+    border-radius: 20px; }
+    .paginaInfo-Curso .greenbt a:hover {
+      background-color: #b38cff;
+      color: white;
+      border: 1px solid rgba(61, 0, 184, 0.583);
+      text-shadow: 1px 2px black; }
+    .paginaInfo-Curso .greenbt a:hover p {
+      opacity: 1;
+      color: #b38cff; }
+    .paginaInfo-Curso .greenbt a:hover {
+      transition: all 2s;
+      animation: artViolet-Green 2s; }
+  .paginaInfo-Curso .navCursos h1 {
+    font-size: 45px;
+    padding: 10px 0px;
+    color: #b38cff;
+    margin: 0; }
+  .paginaInfo-Curso .navCursos:hover {
+    animation: CursoA 1.5s;
+    color: #b38cff; }
+  .paginaInfo-Curso .navCursos:focus {
+    padding: 5px;
+    outline: solid 3px #b38cff;
+    transition: 0.1s;
+    border-radius: 10px; }
+  .paginaInfo-Curso .navCursos .menuCursos {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around; }
+    .paginaInfo-Curso .navCursos .menuCursos a:focus {
+      padding: 5px;
+      outline: solid 3px #b38cff;
+      transition: 0.1s;
+      border-radius: 10px; }
+    .paginaInfo-Curso .navCursos .menuCursos a:hover {
+      animation: CursoA 1.5s;
+      color: #b38cff; }
+  .paginaInfo-Curso .main-curso {
+    display: flex;
+    flex-flow: row wrap;
+    height: 3250px; }
+    .paginaInfo-Curso .main-curso section {
+      height: 300px;
+      width: 1400px;
+      margin: 20px; }
+    .paginaInfo-Curso .main-curso .artViolet {
+      background-color: rgba(0, 0, 0, 0.473);
+      color: #b38cff; }
+      .paginaInfo-Curso .main-curso .artViolet:hover {
+        animation: artGreen-Violet 4s; }
+    .paginaInfo-Curso .main-curso .p2:hover {
+      color: #46ffa3;
+      transition: 1s;
+      background-color: rgba(0, 0, 0, 0.568); }
+    .paginaInfo-Curso .main-curso .artGreen {
+      background-color: rgba(0, 0, 0, 0.473);
+      color: #46ffa3; }
+    .paginaInfo-Curso .main-curso .artGreen:hover {
+      animation: artViolet-Green 4s; }
+    .paginaInfo-Curso .main-curso .p1:hover {
+      color: #b38cff;
+      transition: 1s;
+      background-color: rgba(0, 0, 0, 0.568); }
+  .paginaInfo-Curso .navInfo h1 {
+    font-size: 45px;
+    padding: 20px 0px;
+    margin: 0;
+    color: #46ffa3; }
+  .paginaInfo-Curso .navInfo .menuInfo {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around; }
+  .paginaInfo-Curso .navInfo .contInfo {
+    width: 1200px; }
+  .paginaInfo-Curso .navInfo .menuInfo a:focus {
+    padding: 5px;
+    outline: solid 3px #46ffa3;
+    transition: 0.1s;
+    border-radius: 10px; }
+  .paginaInfo-Curso .navInfo .menuInfo a:hover {
+    animation: infoA 1.5s;
+    color: #46ffa3; }
+  .paginaInfo-Curso .navInfo .colorTextViolet {
+    color: #b38cff; }
+  .paginaInfo-Curso .navInfo .colorTextGreen {
+    color: #46ffa3; }
+  .paginaInfo-Curso .main-Info {
+    display: flex;
+    flex-flow: row wrap;
+    height: 4300px; }
+    .paginaInfo-Curso .main-Info section {
+      height: 400px;
+      width: 1300px;
+      margin: 20px; }
+      .paginaInfo-Curso .main-Info section:hover {
+        animation: infoSec 4s; }
+    .paginaInfo-Curso .main-Info .artGreen {
+      background-color: rgba(0, 0, 0, 0.473);
+      color: #46ffa3; }
+    .paginaInfo-Curso .main-Info .p4:hover {
+      color: #b38cff;
+      transition: 1s;
+      background-color: rgba(0, 0, 0, 0.568); }
+    .paginaInfo-Curso .main-Info .artViolet {
+      background-color: rgba(0, 0, 0, 0.473);
+      color: #b38cff; }
+    .paginaInfo-Curso .main-Info .p3:hover {
+      color: #46ffa3;
+      transition: 1s;
+      background-color: rgba(0, 0, 0, 0.568); }
+  .paginaInfo-Curso .d-flex {
+    margin-bottom: -100px; }
+  @media screen and (max-width: 975px) {
+    .paginaInfo-Curso .columnaicon {
+      display: none; }
+    .paginaInfo-Curso .bootcont {
+      padding-top: 80px; } }
+  .paginaInfo-Curso .imgPosition {
+    margin: 20px 0px 0px 100px; }
+
+@keyframes artGreen-Violet {
+  10% {
+    background-color: #000000b6;
+    box-shadow: 2px 2px 4px #46ffa3; }
+  20% {
+    background-color: #0000009a;
+    box-shadow: 2px 2px 4px #46ffa3; }
+  40% {
+    background-color: #00000070;
+    box-shadow: 2px 2px 4px #b38cff; }
+  60% {
+    background-color: #00000085;
+    box-shadow: 2px 2px 4px #b38cff; }
+  80% {
+    background-color: #000000a8; } }
+
+@keyframes artViolet-Green {
+  10% {
+    background-color: #000000b6;
+    box-shadow: 2px 2px 4px #b38cff; }
+  20% {
+    background-color: #0000009a;
+    box-shadow: 2px 2px 4px #b38cff; }
+  40% {
+    background-color: #00000070;
+    box-shadow: 2px 2px 4px #46ffa3; }
+  60% {
+    background-color: #00000085;
+    box-shadow: 2px 2px 4px #46ffa3; }
+  80% {
+    background-color: #000000a8; } }
+
+@keyframes CursoA {
+  10% {
+    color: #46ffa3;
+    font-size: 21px; }
+  30% {
+    color: #00f8ae;
+    font-size: 20.5px; }
+  60% {
+    color: #a18cff;
+    font-size: 20.8px; }
+  100% {
+    color: #b38cff;
+    font-size: 20.2px; } }
+
+@keyframes infoA {
+  10% {
+    color: #b38cff;
+    font-size: 21px; }
+  30% {
+    color: #a18cff;
+    font-size: 20.5px; }
+  60% {
+    color: #00f8ae;
+    font-size: 20.8px; }
+  100% {
+    color: #46ffa3;
+    font-size: 20.2px; } }
+
+@keyframes sectionPrinci {
+  1% {
+    transform: scale(0.99);
+    box-shadow: 5px 9px 6px black; }
+  25% {
+    transform: scale(0.96); }
+  50% {
+    transform: scale(0.93); }
+  75% {
+    transform: scale(0.99); }
+  100% {
+    transform: scale(1);
+    box-shadow: 5px 9px 8px rgba(0, 0, 0, 0.555); } }

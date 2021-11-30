@@ -329,6 +329,322 @@ font-family: 'Gemunu Libre', sans-serif;}
     }               
 
 
+.paginaInfo-Curso  {
+    
+    header {display: flex; 
+        flex-flow: row wrap; 
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.678);
+        padding: 50px;}
 
+    section{align-self: center;
+        border-radius: 10px;
+        margin-top: 110px;}
+
+    article {margin: 160px 0px 10px 0px;
+        padding: 50px 10px 30px 10px;
+        border-radius: 20px; 
+        transition: all 4s;}
+    
+    nav {text-align: center;padding:10px 0px;
+        margin:-50px 0px;
+        position:fixed;
+        width:100%;
+        background-color: rgba(0, 0, 0, 0.678);}
+    
+    h2 {font-size: 35px;
+        padding: 20px 0px 20px 10px;
+        background-color: rgba(0, 0, 0, 0.541);
+        text-align: center;
+        border-radius: 20px}
+
+    p   {font-size:25px;
+        margin:10px 20px 0px 20px;
+        padding:50px 10px 40px 10px;
+        border-radius:20px;
+        transition:1s;}
+
+    a   {text-decoration: none;
+        color: lightgray;}    
+        
+    .b1, .b2, .b3, .b4      {font-weight:normal;
+                            transition:1.5s;}
+    
+    
+        
+    .bg-ligth {background-color: rgba(0, 0, 0, 0.397);border-radius: 20px;}
+    
+    .violetbt {
+
+            p   {opacity: 0;
+                &:hover{opacity: 1;color:rgb(70, 255, 163)}}
+
+            a   {background-color: rgb(179, 140, 255);
+                color: rgb(255, 255, 255);
+                border: 1px solid rgba(61, 0, 184, 0.583);
+                text-shadow: 1px 2px black;
+                &:hover{background-color: rgb(70, 255, 163);
+                        color: rgb(255, 255, 255) ;
+                        border: 1px solid rgba(0, 143, 72, 0.638);
+                        text-shadow: 1px 2px black;}}  
+                        
+
+
+
+
+
+
+
+            &:hover{animation: artGreen-Violet 2s;}
+            background-color: rgba(1, 2, 2, 0.658);color: rgb(179, 140, 255);border-radius: 20px;}
+
+    .animdan    {transform: translateX(80px) translateY(70px);
+                    transition: 2s;
+                    &:hover {transform: translateX(0px) translateY(0px);}}
+        
+    .animkira   {transform: translateX(2px) translateY(70px);
+                    transition: 2s;
+                    &:hover {transform: translateX(0px) translateY(0px);}}   
+                    
+    .animjean   {transform: translateX(2px) translateY(80px);
+                    transition: 2s;
+                    &:hover {transform: translateX(0px) translateY(0px);}}
+              
+    .animjon    {transform: translateX(80px) translateY(90px);
+                    transition: 2s;
+                    &:hover {transform: translateX(0px) translateY(0px);}}
+        
+    .animImg    {
+
+                img {transform: scale(2) translateX(-20px); transition: 2s;
+                &:hover{transform: scale(1); transition: 2s;}}
+
+                h5 {opacity: 0; margin-top: 20px;margin-left: 20px;
+                    &:hover h5 {opacity: 1;}}
+
+                a   {opacity: 0; transition: 0.5s;margin-left: 20px;  
+                    &:hover {opacity: 1; transition: 3s;}}
+                
+                p {margin: 0;padding: 20px; transition: 3s;}
+                    
+            transform: translateX(60px) translateY(80px);
+            transition: 2s;
+            &:hover {transform: translateX(0px) translateY(0px);}} 
+        
+    .iconanim {
+
+       img {transform: rotate(360deg);transition: 2s;
+            &:hover {transform: rotate(360deg);transition: 2s;}}
+
+        h3 {transform: scale(1.2); transition: 2s;
+            &:hover{transform: scale(1.2); transition: 2s;}}}    
+    
+    .greenbt {
+        
+        p {opacity: 0;}
+
+        a {background-color: rgb(70, 255, 163);
+            color: rgb(255, 255, 255);
+            border: 1px solid rgba(0, 143, 72, 0.638);
+            text-shadow: 1px 2px black;
+            &:hover {background-color: rgb(179, 140, 255);
+                    color: rgb(255, 255, 255);
+                    border: 1px solid rgba(61, 0, 184, 0.583);
+                    text-shadow: 1px 2px black;}
+
+
+
+
+
+        &:hover p {opacity: 1; color:rgb(179, 140, 255) ;}
+
+        &:hover {transition: all 2s;animation: artViolet-Green 2s;}
+        
+        background-color: rgba(0, 0, 0, 0.658);color: rgb(70, 255, 163);border-radius: 20px;}}
+    
+    .navCursos {
+        
+     h1     {font-size: 45px;
+            padding: 10px 0px; 
+            color: rgb(179, 140, 255);
+                                    margin: 0;} 
+     &:hover    {animation: CursoA 1.5s;
+                color: rgb(179, 140, 255);}
+
+    &:focus     {padding:5px;
+                outline: solid 3px rgb(179, 140, 255);
+                transition: 0.1s; 
+                border-radius: 10px;}                    
+                                
+                                                                               
+                               
+     .menuCursos {
+                                    
+    a:focus {padding:5px;
+            outline: solid 3px rgb(179, 140, 255);
+            transition: 0.1s;
+            border-radius: 10px;}      
+                        
+    a:hover {animation: CursoA 1.5s;
+            color: rgb(179, 140, 255);}
+                                            
+    list-style: none;
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: space-around;}}
+                           
+    .main-curso {
+        
+        section {height: 300px;
+                width: 1400px;
+                margin: 20px;} 
+        
+        .artViolet  {background-color:rgba(0, 0, 0, 0.473);
+                    color:rgb(179, 140, 255);
+                    &:hover{animation: artGreen-Violet 4s;}} 
+
+        .p2:hover   {color:rgb(70, 255, 163);
+                    transition:1s;
+                    background-color:rgba(0, 0, 0, 0.568);}
+
+        .artGreen   {background-color:rgba(0, 0, 0, 0.473);
+                    color:rgb(70, 255, 163)}
+
+        .artGreen:hover {animation: artViolet-Green 4s;}      
+
+        .p1:hover   {color:rgb(179, 140, 255);
+                    transition:1s;
+                    background-color:rgba(0, 0, 0, 0.568);}
+            
+        display: flex;
+        flex-flow: row wrap;
+        height: 3250px;}
+        
+    .navInfo{
+
+            h1{font-size: 45px;
+                padding: 20px 0px;
+                margin: 0;
+                color: rgb(70, 255, 163);}
+    
+            .menuInfo       {list-style: none ;
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: space-around;} 
+                      
+            .contInfo  {width: 1200px;}                            
+    
+            .menuInfo a {&:focus {padding:5px; 
+                        outline: solid 3px rgb(70, 255, 163);
+                        transition: 0.1s; 
+                        border-radius: 10px;}
+                        &:hover {animation: infoA 1.5s; 
+                        color:rgb(70, 255, 163);}}
+    
+            .colorTextViolet {color:rgb(179, 140, 255);}
+            
+            .colorTextGreen {color:rgb(70, 255, 163);}}         
+    
+    .main-Info    {
+          
+      
+    section     {
+            height: 400px;
+            width: 1300px;
+            margin: 20px; 
+            &:hover {animation: infoSec 4s;}} 
+        
+        .artGreen  {background-color:rgba(0, 0, 0, 0.473);
+                    color:rgb(70, 255, 163)}
+
+        .p4:hover  {color: rgb(179, 140, 255);
+                    transition:1s;
+                    background-color:rgba(0, 0, 0, 0.568);}
+
+        .artViolet  {background-color:rgba(0, 0, 0, 0.473);
+                    color:rgb(179, 140, 255);}
+
+        .p3:hover   {color:rgb(70, 255, 163);
+                    transition:1s;
+                    background-color:rgba(0, 0, 0, 0.568);}
+
+        display: flex;
+        flex-flow: row wrap;
+        height: 4300px;}        
+     
+    .d-flex {margin-bottom: -100px;}
+
+    @media screen and (max-width: 975px){
+    
+            .columnaicon {display: none;}
+            .bootcont {padding-top: 80px}}
+       
+    .imgPosition {margin: 20px 0px 0px 100px}
+       
+            
+
+    
+    
+    
+    margin-bottom: 400px; background-image: url(../src/multimedia/imagenes/fondos/fondo-principal.jpg);}
+    
+    
+
+
+
+
+
+    @keyframes artGreen-Violet {
+
+        10% {background-color: #000000b6; box-shadow: 2px 2px 4px rgb(70, 255, 163);}
+        20% {background-color: #0000009a; box-shadow: 2px 2px 4px rgb(70, 255, 163);}
+        40% {background-color: #00000070;box-shadow: 2px 2px 4px rgb(179, 140, 255);}
+        60%{background-color: #00000085;box-shadow: 2px 2px 4px rgb(179, 140, 255);}
+        80% {background-color: #000000a8;}
    
+        
+  }
+  
+  @keyframes artViolet-Green{
+  
+        10% {background-color: #000000b6; box-shadow: 2px 2px 4px rgb(179, 140, 255);}
+        20% {background-color: #0000009a; box-shadow: 2px 2px 4px rgb(179, 140, 255);}
+        40% {background-color: #00000070;box-shadow: 2px 2px 4px rgb(70, 255, 163);}
+        60%{background-color: #00000085;box-shadow: 2px 2px 4px rgb(70, 255, 163);}
+        80% {background-color: #000000a8;}
+  }
+  
+  @keyframes CursoA {
+  
+        10% {color: rgb(70, 255, 163);font-size: 21px;}
+        30% {color: rgb(0, 248, 174);font-size: 20.5px;}
+        60% {color: rgb(161, 140, 255); font-size: 20.8px;}
+        100%{color: rgb(179, 140, 255);font-size: 20.2px;}
+  
+  }
+  
+  @keyframes infoA {
+  
+        10%   {color: rgb(179, 140, 255);font-size: 21px;}
+        30%   {color: rgb(161, 140, 255);font-size: 20.5px;}
+        60%   {color: rgb(0, 248, 174); font-size: 20.8px;}
+        100%  {color: rgb(70, 255, 163);font-size: 20.2px;}     
+  
+  }
+  
+  
+  @keyframes sectionPrinci {
+  
+        1% {transform: scale(0.99);box-shadow: 5px 9px 6px rgb(0, 0, 0);}
+        25% {transform: scale(0.96);}
+        50% {transform: scale(0.93);}
+        75% {transform: scale(0.99);}
+        100% {transform: scale(1);box-shadow: 5px 9px 8px rgba(0, 0, 0, 0.555);}
+        
+  
+  }
+  
+
+
+
 
