@@ -369,7 +369,7 @@
     flex-flow: row wrap;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.678);
-    padding: 50px; }
+    padding: 40px; }
   .paginaInfo-Curso section {
     align-self: center;
     border-radius: 10px;
@@ -413,9 +413,6 @@
     border-radius: 20px; }
     .paginaInfo-Curso .violetbt p {
       opacity: 0; }
-      .paginaInfo-Curso .violetbt p:hover {
-        opacity: 1;
-        color: #46ffa3; }
     .paginaInfo-Curso .violetbt a {
       background-color: #b38cff;
       color: white;
@@ -426,6 +423,27 @@
         color: white;
         border: 1px solid rgba(0, 143, 72, 0.638);
         text-shadow: 1px 2px black; }
+    .paginaInfo-Curso .violetbt:hover p {
+      opacity: 1;
+      color: #46ffa3; }
+
+@keyframes artGreen-Violet {
+  10% {
+    background-color: #000000b6;
+    box-shadow: 2px 2px 4px #46ffa3; }
+  20% {
+    background-color: #0000009a;
+    box-shadow: 2px 2px 4px #46ffa3; }
+  40% {
+    background-color: #00000070;
+    box-shadow: 2px 2px 4px #b38cff; }
+  60% {
+    background-color: #00000085;
+    box-shadow: 2px 2px 4px #b38cff; }
+  80% {
+    background-color: #000000a8; } }
+    .paginaInfo-Curso .violetbt:hover .imgPosition {
+      margin: 20px 0px 0px 100px; }
     .paginaInfo-Curso .violetbt:hover {
       animation: artGreen-Violet 2s; }
   .paginaInfo-Curso .animdan {
@@ -449,7 +467,7 @@
     .paginaInfo-Curso .animjon:hover {
       transform: translateX(0px) translateY(0px); }
   .paginaInfo-Curso .animImg {
-    transform: translateX(60px) translateY(80px);
+    transform: translateY(80px);
     transition: 2s; }
     .paginaInfo-Curso .animImg img {
       transform: scale(2) translateX(-20px);
@@ -461,54 +479,87 @@
       opacity: 0;
       margin-top: 20px;
       margin-left: 20px; }
-      .paginaInfo-Curso .animImg h5:hover h5 {
-        opacity: 1; }
     .paginaInfo-Curso .animImg a {
       opacity: 0;
       transition: 0.5s;
       margin-left: 20px; }
-      .paginaInfo-Curso .animImg a:hover {
-        opacity: 1;
-        transition: 3s; }
     .paginaInfo-Curso .animImg p {
       margin: 0;
       padding: 20px;
       transition: 3s; }
+    .paginaInfo-Curso .animImg:hover a {
+      opacity: 1;
+      transition: 3s; }
+    .paginaInfo-Curso .animImg:hover h5 {
+      opacity: 1; }
+    .paginaInfo-Curso .animImg:hover img {
+      transform: scale(1);
+      transition: 2s; }
     .paginaInfo-Curso .animImg:hover {
       transform: translateX(0px) translateY(0px); }
   .paginaInfo-Curso .iconanim img {
+    transition: 4s; }
+  .paginaInfo-Curso .iconanim h3 {
+    transition: 4s; }
+  .paginaInfo-Curso .iconanim:hover img {
     transform: rotate(360deg);
     transition: 2s; }
-    .paginaInfo-Curso .iconanim img:hover {
-      transform: rotate(360deg);
-      transition: 2s; }
-  .paginaInfo-Curso .iconanim h3 {
+  .paginaInfo-Curso .iconanim:hover h3 {
     transform: scale(1.2);
     transition: 2s; }
-    .paginaInfo-Curso .iconanim h3:hover {
-      transform: scale(1.2);
-      transition: 2s; }
-  .paginaInfo-Curso .greenbt p {
-    opacity: 0; }
-  .paginaInfo-Curso .greenbt a {
-    background-color: #46ffa3;
-    color: white;
-    border: 1px solid rgba(0, 143, 72, 0.638);
-    text-shadow: 1px 2px black;
+  .paginaInfo-Curso .greenbt {
     background-color: rgba(0, 0, 0, 0.658);
     color: #46ffa3;
     border-radius: 20px; }
-    .paginaInfo-Curso .greenbt a:hover {
-      background-color: #b38cff;
+    .paginaInfo-Curso .greenbt p {
+      opacity: 0; }
+    .paginaInfo-Curso .greenbt a {
+      background-color: #46ffa3;
       color: white;
-      border: 1px solid rgba(61, 0, 184, 0.583);
+      border: 1px solid rgba(0, 143, 72, 0.638);
       text-shadow: 1px 2px black; }
-    .paginaInfo-Curso .greenbt a:hover p {
+      .paginaInfo-Curso .greenbt a:hover {
+        background-color: #b38cff;
+        color: white;
+        border: 1px solid rgba(61, 0, 184, 0.583);
+        text-shadow: 1px 2px black; }
+
+@keyframes artViolet-Green {
+  10% {
+    background-color: #000000b6;
+    box-shadow: 2px 2px 4px #b38cff; }
+  20% {
+    background-color: #0000009a;
+    box-shadow: 2px 2px 4px #b38cff; }
+  40% {
+    background-color: #00000070;
+    box-shadow: 2px 2px 4px #46ffa3; }
+  60% {
+    background-color: #00000085;
+    box-shadow: 2px 2px 4px #46ffa3; }
+  80% {
+    background-color: #000000a8; } }
+    .paginaInfo-Curso .greenbt:hover p {
       opacity: 1;
       color: #b38cff; }
-    .paginaInfo-Curso .greenbt a:hover {
-      transition: all 2s;
+    .paginaInfo-Curso .greenbt:hover .imgPosition {
+      margin: 20px 0px 0px 100px; }
+    .paginaInfo-Curso .greenbt:hover {
       animation: artViolet-Green 2s; }
+  .paginaInfo-Curso .d-flex {
+    margin-bottom: -100px; }
+  .paginaInfo-Curso .imgPosition {
+    margin: 20px 0px 0px 140px; }
+  .paginaInfo-Curso .artGreen {
+    background-color: rgba(0, 0, 0, 0.473);
+    color: #46ffa3; }
+    .paginaInfo-Curso .artGreen:hover {
+      animation: artViolet-Green 4s; }
+  .paginaInfo-Curso .artViolet {
+    background-color: rgba(0, 0, 0, 0.473);
+    color: #b38cff; }
+    .paginaInfo-Curso .artViolet:hover {
+      animation: artGreen-Violet 4s; }
   .paginaInfo-Curso .navCursos h1 {
     font-size: 45px;
     padding: 10px 0px;
@@ -535,29 +586,19 @@
     .paginaInfo-Curso .navCursos .menuCursos a:hover {
       animation: CursoA 1.5s;
       color: #b38cff; }
-  .paginaInfo-Curso .main-curso {
+  .paginaInfo-Curso .main-Curso {
     display: flex;
     flex-flow: row wrap;
     height: 3250px; }
-    .paginaInfo-Curso .main-curso section {
+    .paginaInfo-Curso .main-Curso section {
       height: 300px;
       width: 1400px;
       margin: 20px; }
-    .paginaInfo-Curso .main-curso .artViolet {
-      background-color: rgba(0, 0, 0, 0.473);
-      color: #b38cff; }
-      .paginaInfo-Curso .main-curso .artViolet:hover {
-        animation: artGreen-Violet 4s; }
-    .paginaInfo-Curso .main-curso .p2:hover {
+    .paginaInfo-Curso .main-Curso .p2:hover {
       color: #46ffa3;
       transition: 1s;
       background-color: rgba(0, 0, 0, 0.568); }
-    .paginaInfo-Curso .main-curso .artGreen {
-      background-color: rgba(0, 0, 0, 0.473);
-      color: #46ffa3; }
-    .paginaInfo-Curso .main-curso .artGreen:hover {
-      animation: artViolet-Green 4s; }
-    .paginaInfo-Curso .main-curso .p1:hover {
+    .paginaInfo-Curso .main-Curso .p1:hover {
       color: #b38cff;
       transition: 1s;
       background-color: rgba(0, 0, 0, 0.568); }
@@ -595,61 +636,19 @@
       margin: 20px; }
       .paginaInfo-Curso .main-Info section:hover {
         animation: infoSec 4s; }
-    .paginaInfo-Curso .main-Info .artGreen {
-      background-color: rgba(0, 0, 0, 0.473);
-      color: #46ffa3; }
     .paginaInfo-Curso .main-Info .p4:hover {
       color: #b38cff;
       transition: 1s;
       background-color: rgba(0, 0, 0, 0.568); }
-    .paginaInfo-Curso .main-Info .artViolet {
-      background-color: rgba(0, 0, 0, 0.473);
-      color: #b38cff; }
     .paginaInfo-Curso .main-Info .p3:hover {
       color: #46ffa3;
       transition: 1s;
       background-color: rgba(0, 0, 0, 0.568); }
-  .paginaInfo-Curso .d-flex {
-    margin-bottom: -100px; }
   @media screen and (max-width: 975px) {
     .paginaInfo-Curso .columnaicon {
       display: none; }
     .paginaInfo-Curso .bootcont {
       padding-top: 80px; } }
-  .paginaInfo-Curso .imgPosition {
-    margin: 20px 0px 0px 100px; }
-
-@keyframes artGreen-Violet {
-  10% {
-    background-color: #000000b6;
-    box-shadow: 2px 2px 4px #46ffa3; }
-  20% {
-    background-color: #0000009a;
-    box-shadow: 2px 2px 4px #46ffa3; }
-  40% {
-    background-color: #00000070;
-    box-shadow: 2px 2px 4px #b38cff; }
-  60% {
-    background-color: #00000085;
-    box-shadow: 2px 2px 4px #b38cff; }
-  80% {
-    background-color: #000000a8; } }
-
-@keyframes artViolet-Green {
-  10% {
-    background-color: #000000b6;
-    box-shadow: 2px 2px 4px #b38cff; }
-  20% {
-    background-color: #0000009a;
-    box-shadow: 2px 2px 4px #b38cff; }
-  40% {
-    background-color: #00000070;
-    box-shadow: 2px 2px 4px #46ffa3; }
-  60% {
-    background-color: #00000085;
-    box-shadow: 2px 2px 4px #46ffa3; }
-  80% {
-    background-color: #000000a8; } }
 
 @keyframes CursoA {
   10% {
@@ -692,3 +691,201 @@
   100% {
     transform: scale(1);
     box-shadow: 5px 9px 8px rgba(0, 0, 0, 0.555); } }
+
+section iframe {
+  border-radius: 20px;
+  width: 450px;
+  height: 350px;
+  border-color: black;
+  margin: 0px 20px; }
+
+.imagen-pag {
+  border-radius: 20px;
+  width: 450px;
+  height: 350px;
+  background-color: #9c2d2d57;
+  margin: 0;
+  padding: 0; }
+
+.grid-container p {
+  transition: 2s; }
+
+.bodyHtml {
+  background-image: url(../src/multimedia/imagenes/fondos/);
+  background-size: 100%;
+  color: #ff5202;
+  text-shadow: 1px 1px #000000; }
+  .bodyHtml h1 {
+    background-color: rgba(255, 115, 0, 0.596);
+    color: white; }
+  .bodyHtml p:hover {
+    background-image: linear-gradient(to bottom, rgba(255, 115, 0, 0.164), rgba(151, 68, 0, 0.397));
+    border-radius: 20px;
+    transition: 0.8s;
+    transform: scale(1.008);
+    color: #fdc494; }
+
+.bodyCss {
+  background-image: url(../src/multimedia/imagenes/fondos/fondo-css.svg);
+  background-size: 200%;
+  color: #6fcaff;
+  text-shadow: 1px 1px #000000; }
+  .bodyCss h1 {
+    background-color: rgba(0, 47, 255, 0.575); }
+  .bodyCss p:hover {
+    background-image: linear-gradient(to bottom, rgba(17, 0, 255, 0.048), rgba(5, 0, 51, 0.24));
+    border-radius: 20px;
+    transition: 0.8s;
+    transform: scale(1.008);
+    color: #0d014e; }
+
+.bodyJavasc {
+  background-image: url(../src/multimedia/imagenes/fondos/fondo-javascript.svg);
+  background-size: 250%;
+  color: rgba(15, 7, 14, 0.562);
+  text-shadow: 1px 1px #000000; }
+  .bodyJavasc h1 {
+    background-color: rgba(255, 238, 0, 0.5); }
+  .bodyJavasc p:hover {
+    background-image: linear-gradient(to bottom, rgba(255, 251, 0, 0.048), rgba(50, 51, 0, 0.24));
+    border-radius: 20px;
+    transition: 0.8s;
+    transform: scale(1.008);
+    color: #f0d800; }
+
+.bodyReactjs {
+  background-image: url(../src/multimedia/imagenes/fondos/fondo-react.svg);
+  background-size: 10%;
+  color: #0c0041;
+  text-shadow: 1px 1px #000000; }
+  .bodyReactjs h1 {
+    background-color: rgba(0, 253, 253, 0.486); }
+  .bodyReactjs p:hover {
+    background-image: linear-gradient(to bottom, rgba(0, 4, 255, 0.048), rgba(0, 7, 51, 0.24));
+    border-radius: 20px;
+    transition: 0.8s;
+    transform: scale(1.008);
+    color: #00d4f0; }
+
+@media screen and (min-width: 1421px) {
+  .grid-container {
+    display: none; } }
+
+@media screen and (min-width: 1329px) and (max-width: 1420px) {
+  .grid-container {
+    display: grid;
+    background-size: cover;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 350px);
+    gap: 40px;
+    grid-template-areas: "header header header header" "section section section aside" "footer footer footer aside";
+    padding: 20px;
+    font-size: 23px; }
+    .grid-container .grid-item:first-child {
+      grid-area: header;
+      border-radius: 20px; }
+      .grid-container .grid-item:first-child h1 {
+        margin-top: 3px; }
+    .grid-container .grid-item:nth-child(2) {
+      grid-area: section;
+      border-radius: 20px;
+      margin: 0px 0px 0px 120px;
+      width: 1000px; }
+    .grid-container .grid-item:nth-child(3) {
+      grid-area: aside;
+      width: 80px;
+      height: 150px;
+      border-radius: 20px;
+      margin: 70px 0px 0px 0px;
+      background-color: rgba(0, 0, 0, 0.534); }
+      .grid-container .grid-item:nth-child(3) .volverpags {
+        width: 50px;
+        margin: 13px;
+        padding: 0;
+        border-radius: 30px;
+        background-color: #afafaf4b; }
+      .grid-container .grid-item:nth-child(3) .login-pags {
+        width: 50px;
+        margin: 13px;
+        padding: 0;
+        border-radius: 30px;
+        background-color: #afafaf4b; }
+    .grid-container .grid-item:nth-child(4) {
+      grid-area: footer;
+      background-color: rgba(0, 0, 0, 0.884);
+      border-radius: 20px;
+      height: 200px;
+      margin: 50px 60px 0px 150px;
+      width: 900px; }
+      .grid-container .grid-item:nth-child(4) h4 {
+        font-size: 40px;
+        text-align: center;
+        color: #8d8d8d;
+        background-color: #172020;
+        border-radius: 20px;
+        margin: 5px; }
+      .grid-container .grid-item:nth-child(4) li {
+        list-style: none;
+        margin: 30px 0px 0px 20px; }
+      .grid-container .grid-item:nth-child(4) a {
+        text-decoration: none;
+        color: aliceblue;
+        background: rgba(0, 0, 0, 0.582);
+        border-radius: 20px;
+        padding: 10px 250px 10px 15px; }
+        .grid-container .grid-item:nth-child(4) a:hover {
+          color: blueviolet; } }
+
+@media screen and (min-width: 768px) and (max-width: 1328px) {
+  .grid-container {
+    display: none; } }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .general {
+    margin-right: 8%; }
+    .general .grid-container {
+      display: grid;
+      background-size: cover;
+      grid-template-columns: repeat(4, 200px);
+      grid-template-rows: repeat(2, 150px);
+      gap: 50px;
+      grid-template-areas: "header header" "header header " "section section" "footer aside";
+      padding: 20px;
+      font-size: 13px; }
+      .general .grid-container .grid-item:first-child {
+        grid-area: header;
+        border-radius: 20px;
+        width: 300px; }
+        .general .grid-container .grid-item:first-child h1 {
+          padding: 10px 0px;
+          border: 1px solid rgba(0, 0, 0, 0.192); }
+        .general .grid-container .grid-item:first-child p {
+          padding: 10px;
+          background: #00000025;
+          border-radius: 20px; }
+      .general .grid-container .grid-item:nth-child(2) {
+        grid-area: section;
+        border-radius: 20px;
+        width: 300px; }
+      .general .grid-container section iframe, .general .grid-container .imagen-pag {
+        width: 300px;
+        height: 200px;
+        margin: 0;
+        margin-top: 10px; }
+      .general .grid-container .grid-item:nth-child(3) {
+        grid-area: aside;
+        width: 50px;
+        border-radius: 20px;
+        margin-left: 40px;
+        height: 100px; }
+        .general .grid-container .grid-item:nth-child(3) .volverpags, .general .grid-container .grid-item:nth-child(3) .login-pags {
+          width: 40px; }
+      .general .grid-container .grid-item:nth-child(4) {
+        grid-area: footer;
+        height: 200px;
+        width: 280px; }
+        .general .grid-container .grid-item:nth-child(4) a {
+          padding: 15px 150px 10px 10px;
+          border-radius: 10px; }
+        .general .grid-container .grid-item:nth-child(4) h4 {
+          font-size: 20px; } }

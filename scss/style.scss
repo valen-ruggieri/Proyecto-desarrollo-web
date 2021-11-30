@@ -335,7 +335,7 @@ font-family: 'Gemunu Libre', sans-serif;}
         flex-flow: row wrap; 
         justify-content: center;
         background-color: rgba(0, 0, 0, 0.678);
-        padding: 50px;}
+        padding: 40px;}
 
     section{align-self: center;
         border-radius: 10px;
@@ -371,97 +371,128 @@ font-family: 'Gemunu Libre', sans-serif;}
                             transition:1.5s;}
     
     
+        .bg-ligth {background-color: rgba(0, 0, 0, 0.397);border-radius: 20px;}
         
-    .bg-ligth {background-color: rgba(0, 0, 0, 0.397);border-radius: 20px;}
+        .violetbt {
     
-    .violetbt {
-
-            p   {opacity: 0;
-                &:hover{opacity: 1;color:rgb(70, 255, 163)}}
-
-            a   {background-color: rgb(179, 140, 255);
-                color: rgb(255, 255, 255);
-                border: 1px solid rgba(61, 0, 184, 0.583);
-                text-shadow: 1px 2px black;
-                &:hover{background-color: rgb(70, 255, 163);
-                        color: rgb(255, 255, 255) ;
-                        border: 1px solid rgba(0, 143, 72, 0.638);
-                        text-shadow: 1px 2px black;}}  
-                        
-
-
-
-
-
-
-
-            &:hover{animation: artGreen-Violet 2s;}
-            background-color: rgba(1, 2, 2, 0.658);color: rgb(179, 140, 255);border-radius: 20px;}
-
-    .animdan    {transform: translateX(80px) translateY(70px);
-                    transition: 2s;
-                    &:hover {transform: translateX(0px) translateY(0px);}}
-        
-    .animkira   {transform: translateX(2px) translateY(70px);
-                    transition: 2s;
-                    &:hover {transform: translateX(0px) translateY(0px);}}   
-                    
-    .animjean   {transform: translateX(2px) translateY(80px);
-                    transition: 2s;
-                    &:hover {transform: translateX(0px) translateY(0px);}}
-              
-    .animjon    {transform: translateX(80px) translateY(90px);
-                    transition: 2s;
-                    &:hover {transform: translateX(0px) translateY(0px);}}
-        
-    .animImg    {
-
-                img {transform: scale(2) translateX(-20px); transition: 2s;
-                &:hover{transform: scale(1); transition: 2s;}}
-
-                h5 {opacity: 0; margin-top: 20px;margin-left: 20px;
-                    &:hover h5 {opacity: 1;}}
-
-                a   {opacity: 0; transition: 0.5s;margin-left: 20px;  
-                    &:hover {opacity: 1; transition: 3s;}}
-                
-                p {margin: 0;padding: 20px; transition: 3s;}
-                    
-            transform: translateX(60px) translateY(80px);
-            transition: 2s;
-            &:hover {transform: translateX(0px) translateY(0px);}} 
-        
-    .iconanim {
-
-       img {transform: rotate(360deg);transition: 2s;
-            &:hover {transform: rotate(360deg);transition: 2s;}}
-
-        h3 {transform: scale(1.2); transition: 2s;
-            &:hover{transform: scale(1.2); transition: 2s;}}}    
+                p   {opacity: 0;}
     
-    .greenbt {
-        
-        p {opacity: 0;}
-
-        a {background-color: rgb(70, 255, 163);
-            color: rgb(255, 255, 255);
-            border: 1px solid rgba(0, 143, 72, 0.638);
-            text-shadow: 1px 2px black;
-            &:hover {background-color: rgb(179, 140, 255);
+                a   {background-color: rgb(179, 140, 255);
                     color: rgb(255, 255, 255);
                     border: 1px solid rgba(61, 0, 184, 0.583);
-                    text-shadow: 1px 2px black;}
-
-
-
-
-
-        &:hover p {opacity: 1; color:rgb(179, 140, 255) ;}
-
-        &:hover {transition: all 2s;animation: artViolet-Green 2s;}
-        
-        background-color: rgba(0, 0, 0, 0.658);color: rgb(70, 255, 163);border-radius: 20px;}}
+                    text-shadow: 1px 2px black;
+                    &:hover{background-color: rgb(70, 255, 163);
+                            color: rgb(255, 255, 255) ;
+                            border: 1px solid rgba(0, 143, 72, 0.638);
+                            text-shadow: 1px 2px black;}}  
+                            
     
+        &:hover p {opacity: 1;color:rgb(70, 255, 163)}
+    
+        
+        @keyframes artGreen-Violet {
+
+        10% {background-color: #000000b6; box-shadow: 2px 2px 4px rgb(70, 255, 163);}
+        20% {background-color: #0000009a; box-shadow: 2px 2px 4px rgb(70, 255, 163);}
+        40% {background-color: #00000070;box-shadow: 2px 2px 4px rgb(179, 140, 255);}
+        60%{background-color: #00000085;box-shadow: 2px 2px 4px rgb(179, 140, 255);}
+        80% {background-color: #000000a8;}} 
+         
+        &:hover .imgPosition{margin: 20px 0px 0px 100px}
+        
+        &:hover{animation: artGreen-Violet 2s;}
+        background-color: rgba(1, 2, 2, 0.658);color: rgb(179, 140, 255);border-radius: 20px;}
+    
+        .animdan    {transform: translateX(80px) translateY(70px);
+                        transition: 2s;
+                        &:hover {transform: translateX(0px) translateY(0px);}}
+            
+        .animkira   {transform: translateX(2px) translateY(70px);
+                        transition: 2s;
+                        &:hover {transform: translateX(0px) translateY(0px);}}   
+                        
+        .animjean   {transform: translateX(2px) translateY(80px);
+                        transition: 2s;
+                        &:hover {transform: translateX(0px) translateY(0px);}}
+                  
+        .animjon    {transform: translateX(80px) translateY(90px);
+                        transition: 2s;
+                        &:hover {transform: translateX(0px) translateY(0px);}}
+            
+        .animImg    {
+    
+                    img {transform: scale(2) translateX(-20px); transition: 2s;
+                    &:hover{transform: scale(1); transition: 2s;}}
+    
+                    h5 {opacity: 0; margin-top: 20px;margin-left: 20px;}
+                    
+                    a   {opacity: 0; transition: 0.5s;margin-left: 20px;}  
+                       
+                    p {margin: 0;padding: 20px; transition: 3s;}
+                        
+                transform:  translateY(80px);
+                transition: 2s;
+    
+                &:hover a {opacity: 1; transition: 3s;}
+    
+                &:hover h5 {opacity: 1;}
+    
+                &:hover  img {transform: scale(1); transition: 2s;}
+    
+                &:hover {transform: translateX(0px) translateY(0px);}} 
+            
+        .iconanim {
+    
+            img {transition: 4s;}
+    
+            h3 {transition: 4s;}
+                
+            &:hover img {transform: rotate(360deg);transition: 2s;}
+            &:hover h3 {transform: scale(1.2); transition: 2s;}}   
+        
+        .greenbt {
+            
+            p {opacity: 0;}
+    
+            a {background-color: rgb(70, 255, 163);
+                color: rgb(255, 255, 255);
+                border: 1px solid rgba(0, 143, 72, 0.638);
+                text-shadow: 1px 2px black;
+                &:hover {background-color: rgb(179, 140, 255);
+                        color: rgb(255, 255, 255);
+                        border: 1px solid rgba(61, 0, 184, 0.583);
+                        text-shadow: 1px 2px black;}}
+    
+        @keyframes artViolet-Green{
+  
+            10% {background-color: #000000b6; box-shadow: 2px 2px 4px rgb(179, 140, 255);}
+            20% {background-color: #0000009a; box-shadow: 2px 2px 4px rgb(179, 140, 255);}
+            40% {background-color: #00000070;box-shadow: 2px 2px 4px rgb(70, 255, 163);}
+            60%{background-color: #00000085;box-shadow: 2px 2px 4px rgb(70, 255, 163);}
+            80% {background-color: #000000a8;}}
+
+        &:hover p {opacity: 1; color:rgb(179, 140, 255)}
+        
+        
+        &:hover .imgPosition{margin: 20px 0px 0px 100px}
+        
+        &:hover {animation: artViolet-Green 2s;}
+            
+        background-color: rgba(0, 0, 0, 0.658);color: rgb(70, 255, 163);border-radius: 20px;}
+        
+        .d-flex {margin-bottom: -100px;}
+        
+        .imgPosition {margin: 20px 0px 0px 140px;}
+        
+    .artGreen   {background-color:rgba(0, 0, 0, 0.473);
+                color:rgb(70, 255, 163);
+                &:hover{animation: artViolet-Green 4s;}}
+
+
+    .artViolet {background-color:rgba(0, 0, 0, 0.473);
+                color:rgb(179, 140, 255);
+            &:hover{animation: artGreen-Violet 4s;}}
+      
     .navCursos {
         
      h1     {font-size: 45px;
@@ -493,24 +524,17 @@ font-family: 'Gemunu Libre', sans-serif;}
     flex-flow: row wrap;
     justify-content: space-around;}}
                            
-    .main-curso {
+    .main-Curso {
         
         section {height: 300px;
                 width: 1400px;
                 margin: 20px;} 
         
-        .artViolet  {background-color:rgba(0, 0, 0, 0.473);
-                    color:rgb(179, 140, 255);
-                    &:hover{animation: artGreen-Violet 4s;}} 
-
+       
         .p2:hover   {color:rgb(70, 255, 163);
                     transition:1s;
                     background-color:rgba(0, 0, 0, 0.568);}
 
-        .artGreen   {background-color:rgba(0, 0, 0, 0.473);
-                    color:rgb(70, 255, 163)}
-
-        .artGreen:hover {animation: artViolet-Green 4s;}      
 
         .p1:hover   {color:rgb(179, 140, 255);
                     transition:1s;
@@ -548,23 +572,18 @@ font-family: 'Gemunu Libre', sans-serif;}
     .main-Info    {
           
       
-    section     {
+    section   {
             height: 400px;
             width: 1300px;
             margin: 20px; 
             &:hover {animation: infoSec 4s;}} 
-        
-        .artGreen  {background-color:rgba(0, 0, 0, 0.473);
-                    color:rgb(70, 255, 163)}
-
-        .p4:hover  {color: rgb(179, 140, 255);
+       
+    .p4:hover  {color: rgb(179, 140, 255);
                     transition:1s;
                     background-color:rgba(0, 0, 0, 0.568);}
 
-        .artViolet  {background-color:rgba(0, 0, 0, 0.473);
-                    color:rgb(179, 140, 255);}
-
-        .p3:hover   {color:rgb(70, 255, 163);
+       
+    .p3:hover   {color:rgb(70, 255, 163);
                     transition:1s;
                     background-color:rgba(0, 0, 0, 0.568);}
 
@@ -572,14 +591,12 @@ font-family: 'Gemunu Libre', sans-serif;}
         flex-flow: row wrap;
         height: 4300px;}        
      
-    .d-flex {margin-bottom: -100px;}
 
     @media screen and (max-width: 975px){
     
             .columnaicon {display: none;}
             .bootcont {padding-top: 80px}}
        
-    .imgPosition {margin: 20px 0px 0px 100px}
        
             
 
@@ -594,25 +611,8 @@ font-family: 'Gemunu Libre', sans-serif;}
 
 
 
-    @keyframes artGreen-Violet {
-
-        10% {background-color: #000000b6; box-shadow: 2px 2px 4px rgb(70, 255, 163);}
-        20% {background-color: #0000009a; box-shadow: 2px 2px 4px rgb(70, 255, 163);}
-        40% {background-color: #00000070;box-shadow: 2px 2px 4px rgb(179, 140, 255);}
-        60%{background-color: #00000085;box-shadow: 2px 2px 4px rgb(179, 140, 255);}
-        80% {background-color: #000000a8;}
-   
-        
-  }
   
-  @keyframes artViolet-Green{
-  
-        10% {background-color: #000000b6; box-shadow: 2px 2px 4px rgb(179, 140, 255);}
-        20% {background-color: #0000009a; box-shadow: 2px 2px 4px rgb(179, 140, 255);}
-        40% {background-color: #00000070;box-shadow: 2px 2px 4px rgb(70, 255, 163);}
-        60%{background-color: #00000085;box-shadow: 2px 2px 4px rgb(70, 255, 163);}
-        80% {background-color: #000000a8;}
-  }
+ 
   
   @keyframes CursoA {
   
@@ -646,5 +646,245 @@ font-family: 'Gemunu Libre', sans-serif;}
   
 
 
+section iframe    {border-radius: 20px;
+                    width: 450px;
+                    height:350px;
+                    border-color: black;
+                    margin: 0px 20px;} 
 
+.imagen-pag     {border-radius: 20px;
+                width: 450px;
+                height:350px;background-color: #9c2d2d57;
+                margin: 0; padding: 0;}
+
+
+.grid-container p {transition: 2s;}  
+
+.bodyHtml {
+    
+    h1  {background-color: rgba(255, 115, 0, 0.596); 
+        color: rgb(255, 255, 255);}  
+        
+    p:hover {background-image: linear-gradient(to bottom, rgba(255, 115, 0, 0.164) ,rgba(151, 68, 0, 0.397));
+            border-radius: 20px;
+            transition: 0.8s;
+            transform: scale(1.008);
+            color: rgb(253, 196, 148);}
+
+    
+    background-image:url(../src/multimedia/imagenes/fondos/);
+    background-size: 100%;
+    color: rgb(255, 82, 2);
+    text-shadow: 1px 1px #000000;}
+
+    
+  
+.bodyCss  {
+    
+    h1  {background-color: rgba(0, 47, 255, 0.575);}
+    
+    p:hover {background-image: linear-gradient(to bottom, rgba(17, 0, 255, 0.048) ,rgba(5, 0, 51, 0.24));
+            border-radius: 20px;
+            transition: 0.8s;
+            transform: scale(1.008);
+            color: rgb(13, 1, 78);}
+
+    background-image: url(../src/multimedia/imagenes/fondos/fondo-css.svg);
+    background-size: 200%;
+    color: rgb(111, 202, 255);
+    text-shadow: 1px 1px #000000;}
+    
+    
+    
+.bodyJavasc {
+    
+    h1   {background-color: rgba(255, 238, 0, 0.5);}   
+    
+    p:hover {background-image: linear-gradient(to bottom, rgba(255, 251, 0, 0.048) ,rgba(50, 51, 0, 0.24));
+            border-radius: 20px;
+            transition: 0.8s;
+            transform: scale(1.008);
+        
+            color: rgb(240, 216, 0);}
+
+    background-image: url(../src/multimedia/imagenes/fondos/fondo-javascript.svg);
+    background-size: 250%;
+    color: rgba(15, 7, 14, 0.562);
+    text-shadow: 1px 1px #000000;}
+    
+    
+.bodyReactjs {
+
+    h1 {background-color: rgba(0, 253, 253, 0.486);}
+
+    p:hover {background-image: linear-gradient(to bottom, rgba(0, 4, 255, 0.048) ,rgba(0, 7, 51, 0.24));
+            border-radius: 20px;
+            transition: 0.8s;
+            transform: scale(1.008);
+            color: rgb(0, 212, 240);}
+    
+    background-image: url(../src/multimedia/imagenes/fondos/fondo-react.svg);
+    background-size: 10%;
+    color: rgb(12, 0, 65);
+    text-shadow: 1px 1px #000000;}      
+    
+
+ @media screen and (min-width: 1421px) {
+
+ .grid-container {display: none;}} 
+
+ @media screen and (min-width: 1329px) and (max-width: 1420px) {
+
+
+    .grid-container {
+
+
+        
+        .grid-item:first-child {
+         h1 {margin-top: 3px; }                        
+            grid-area: header;
+            border-radius: 20px}
+      
+        .grid-item:nth-child(2) {grid-area: section;
+                                border-radius: 20px;
+                                margin: 0px 0px 0px 120px;
+                                width: 1000px;}
+
+        .grid-item:nth-child(3){ 
+
+            .volverpags       {width: 50px;
+                                margin:13px;
+                                padding: 0;
+                                border-radius: 30px;
+                                background-color: #afafaf4b;}
+            .login-pags       {width: 50px;
+                                margin:13px;
+                                padding: 0;
+                                border-radius: 30px;
+                                background-color: #afafaf4b;} 
+            
+            grid-area: aside;
+            width: 80px;
+            height: 150px;
+            border-radius: 20px;
+            margin: 70px 0px 0px 0px;
+            background-color: rgba(0, 0, 0, 0.534);}
+
+        .grid-item:nth-child(4) {
+            
+            h4 {font-size: 40px;
+                text-align: center;
+                color: rgb(141, 141, 141);
+                background-color: rgb(23, 32, 32);
+                border-radius: 20px;
+                margin:5px}
+
+            li {list-style: none;
+                margin: 30px 0px 0px 20px ;}
+
+            a   {text-decoration: none;
+                color: aliceblue;
+                background: rgba(0, 0, 0, 0.582);
+                border-radius: 20px;
+                padding: 10px 250px 10px 15px;
+                &:hover { color: blueviolet; }}
+            
+
+            
+            grid-area: footer;
+            background-color: rgba(0, 0, 0, 0.884);
+            border-radius: 20px;
+            height: 200px;
+            margin: 50px 60px 0px 150px;
+            width: 900px;}
+
+                                
+        
+        
+        
+        
+        
+        display: grid;
+        background-size: cover; 
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(4,350px);
+        gap: 40px;
+        grid-template-areas:
+        "header header header header"
+        "section section section aside"
+        "footer footer footer aside";
+        padding: 20px;
+        font-size: 23px;}}
+
+
+@media screen and (min-width: 768px) and (max-width: 1328px) {
+
+            .grid-container {display: none;}}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    
+    .general {
+        .grid-container {
+            
+            .grid-item:first-child  {
+
+                h1 {padding: 10px 0px;
+                    border: 1px solid rgba(0, 0, 0, 0.192)}
+
+                p   {padding: 10px;
+                    background: #00000025;
+                    border-radius: 20px;} 
+
+                grid-area: header;
+                border-radius: 20px;
+                width: 300px;}
+
+            .grid-item:nth-child(2) {grid-area: section;
+                                    border-radius: 20px;
+                                    width: 300px;}
+
+            section iframe , .imagen-pag    {width: 300px;
+                                            height: 200px;
+                                            margin: 0;
+                                            margin-top: 10px;}
+            
+            .grid-item:nth-child(3) {
+
+                .volverpags, .login-pags  {width: 40px;}
+
+                grid-area: aside;
+                width: 50px;
+                border-radius: 20px;
+                margin-left: 40px;
+                height: 100px;}
+
+            .grid-item:nth-child(4) { 
+
+                a   {padding: 15px 150px 10px 10px;
+                    border-radius: 10px;}                        
+
+                h4 {font-size: 20px;}    
+                    
+                    
+                grid-area: footer;
+                height: 200px;
+                width: 280px;}
+
+          
+            display: grid;
+            background-size: cover; 
+            grid-template-columns: repeat(4,200px);
+            grid-template-rows: repeat(2,150px);
+            gap: 50px;
+            grid-template-areas:
+            "header header"
+            "header header "
+            "section section"
+            "footer aside";
+            padding: 20px;
+            font-size: 13px;}
+      
+        margin-right: 8%}}
 
